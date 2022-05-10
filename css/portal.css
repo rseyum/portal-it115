@@ -9,14 +9,6 @@ html {
     font-family: 'Montserrat', sans-serif;
 }
 
-body {
-        font-family: 'Tangerine', serif;
-        font-size: 48px;
-        text-shadow: 4px 4px 4px #aaa;
-
-      }
-
-
 ::selection {
     color: #000; 
     background: #ff0;
@@ -92,6 +84,9 @@ footer {
     
     h1 {
         width: 89%;
+        font-family: 'Tangerine', serif;
+        font-size: 48px;
+        text-shadow: 4px 4px 4px #aaa;
         padding-left: 1%;
     }
     
