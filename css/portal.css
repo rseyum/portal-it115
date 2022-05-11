@@ -1,5 +1,16 @@
 /* Global rules */
-
+*{
+    overflow: scroll;
+    overflow-x: hidden;
+}
+::-webkit-scrollbar {
+    width: 0;  /* Remove scrollbar space */
+    background: transparent;  /* Optional: just make scrollbar invisible */
+}
+/* Optional: show position indicator in red */
+::-webkit-scrollbar-thumb {
+    background: #FF0000;
+}
 @import url('https://fonts.googleapis.com/css?family=Quicksand');
 
 html {
@@ -20,7 +31,7 @@ h1 {
     background: #fff;
     line-height: 2.5em;
 }
-header h1{
+h1.logo{
     font-family: 'Tangerine', serif;
     font-size: 48px;
     text-shadow: 4px 4px 4px #aaa;
@@ -30,6 +41,13 @@ header h1{
 main.wrapper {
     background-color: white;
     overflow: auto;
+}
+h2.subheader{
+    color:darkcyan;
+    font-weight: bold;
+}
+h2.subheader:hover{
+    font-size:70px;
 }
 
 p {
