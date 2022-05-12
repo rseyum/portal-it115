@@ -18,7 +18,7 @@
 @import url('https://fonts.googleapis.com/css?family=Quicksand');
 
 html {
-    background-color: lightgray;
+    background-color: #000;
     font-family: 'Quicksand', sans-serif;
     font-size: 1em;
     line-height: 1.5em;
@@ -26,7 +26,7 @@ html {
 
 ::selection {
     color: #000; 
-    background: #ff0;
+    background: rgba(255, 255, 0, 0.658);
 }
 
 h1 {
@@ -37,18 +37,19 @@ h1 {
 }
 h1.logo{
     font-family: 'Tangerine', serif;
-    font-size: 48px;
+    font-size: 64px;
     font-weight: bold;
     text-shadow: 4px 4px 4px #aaa;
 
 }
 
+
 main.wrapper {
-    background-color: rgba(234, 212, 17, 0.237);
+    background-color: rgba(255, 235, 59, 0.112);
     overflow: auto;
 }
 h2.subheader{
-    color:darkcyan;
+    color: rgba(255, 255, 0, 0.658);
     font-weight: bold;
 }
 h2.subheader:hover{
@@ -57,6 +58,8 @@ h2.subheader:hover{
 
 p {
     margin: 1em; /* Top Right Bottom Left (TRBL) */
+    color:#ffebcd7b;
+    margin-left:20px;
 }
 
 h2,h3 {
@@ -66,20 +69,18 @@ h2,h3 {
 }
 
 a {
-    color:darkcyan;
+    color:rgba(255, 255, 0, 0.658);
     text-decoration: none;
 }
-#yu{
-   font-weight: bold;
-}
+
 h3.tech-header{
-    color:darkcyan;
-    font-weight: bold;
+    color:rgba(255, 255, 0, 0.658);
+
 }
 
 a:hover {
     color: whitesmoke;
-    background-color: darkcyan;
+    background-color: rgba(0, 0, 0, 0.317);
     text-decoration: none;
 }
 
