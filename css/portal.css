@@ -1,4 +1,6 @@
 /* Global rules */
+/* slider */
+/* slider end */
 *{
     overflow: scroll;
     overflow-x: hidden;
@@ -42,7 +44,7 @@ h1.logo{
 }
 
 main.wrapper {
-    background-color: rgba(255, 255, 255, 0.315);
+    background-color: rgba(234, 212, 17, 0.237);
     overflow: auto;
 }
 h2.subheader{
