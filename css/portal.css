@@ -242,10 +242,11 @@ a:hover {
     text-decoration: none;
 }
 
-footer {
+footer p {
     clear: both;
     text-align: center;
     padding: 1em;
+    color:rgba(255, 255, 0, 0.658);
 }
 
 /* Responsive rules */
